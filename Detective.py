@@ -84,6 +84,6 @@ these lines below is to show the truthiness of all of statments
 # Truthiness of these statments can lead us to the criminal
 decisive_statments = [A_statments[1], B_statments[1],
                       C_statments[1], D_statments[0], D_statments[2]]
-result = list(detective_result(decisive_statments))
+result = list(detective_result(decisive_statments))  
 for i in result:
     print(i)
